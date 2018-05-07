@@ -107,96 +107,10 @@
 
 
 
-    <!-- Data section here
-    ================================================== -->
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Get Acces to all your farming data at one place.</h3>
-                <h1 class="display-2">Verticle Farming is the future of Urban Farming!</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row services-list block-1-2 block-tab-full">
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-paint-brush"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Soil Area</h3>
-                    <p>234 sqrt
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Plants used</h3>
-                    <p>Spinach
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Sensors Deployed</h3>
-                    <p>Ultra Sound and Temperature
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Other Systems</h3>
-                    <p>Growth Lights and Irrigation System
-                    </p>
-                </div>
-            </div>
 
 
 
 
-            </div>
-
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <button class="full-width btn--primary" onclick="logout()">Log out</button>
 
 
 
@@ -229,11 +143,15 @@
 
             <div class="col-six tab-full right footer-subscribe">
 
-                <h4 id="user_para">Welcome Back : Username</h4>
-
+                <h4>Get Notified</h4>
+                <p>Get Notified about the Recent Developements in the feild of verticle and organic famring!.</p>
 
                 <div class="subscribe-form">
-
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
                 </div>
 
             </div>
@@ -314,44 +232,11 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-    <!-- Fire base code -->
-
-    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      var config = {
-        apiKey: "AIzaSyB7qoP1tzTNRQMwL4BYIRplj85nmJVsTnc",
-        authDomain: "vertiarg.firebaseapp.com",
-        databaseURL: "https://vertiarg.firebaseio.com",
-        projectId: "vertiarg",
-        storageBucket: "",
-        messagingSenderId: "729612207082"
-      };
-      firebase.initializeApp(config);
-    </script>
-
-
-
-    <script src="js/data.js"></script>
-
-
     <!-- Java Script
     ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-
-
-
 
     </body>
 
